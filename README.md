@@ -34,7 +34,7 @@ to test the model using different values of `alpha` (the scaling factor).
 If you find our work useful, please cite:
 
 ```latex
-@article{zhang2020geometry,
+@article{hitaj2012eval,
   title={Evaluating the Robustness of Geometry-Aware Instance-Reweighted Adversarial Training},
   author={Hitaj,Dorjan and Pagnotta, Giulio and Masi, Iacopo and Mancini, Luigi V.}
   journal={arXiv preprint arXiv:2103.01914},
@@ -44,7 +44,7 @@ If you find our work useful, please cite:
 ```
 
 ### References
-[1] [https://arxiv.org/pdf/1607.04311.pdf](https://arxiv.org/pdf/1607.04311.pdf)
+[1] https://arxiv.org/pdf/1607.04311.pdf
 
 [2] https://arxiv.org/pdf/2003.01690.pdf
 
