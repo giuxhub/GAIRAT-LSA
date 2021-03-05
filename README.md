@@ -19,4 +19,7 @@ to install the needed dependencies. We tested using PyTorch 1.7.1 and CUDA 11.0.
 
     python eval_pgd.py --model_path <model_path> --output_suffix=<result_path> --num_restarts 1 --num_steps 20 --alpha <alpha>
 
-to test the model using different alphas. <model_path> is the pre-trained model path (e.g. checkpoint.pth.tar) and <alpha> is the desired scaling value (e.g. 10.0).
+to test the model using different values of `alpha` (the scaling factor). 
+* `<model_path>` is the pre-trained model path (e.g. checkpoint.pth.tar).
+* `<result_path>` is the path where to store evaluation results.
+* `<alpha>` is the desired scaling value (e.g. 10.0).
