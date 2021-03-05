@@ -3,7 +3,8 @@ Evaluating GAIRAT robustness using Logit Scaling Attack.
 We evaluate the adversarial robustness of a very recent method called ["Geometry-aware Instance-reweighted Adversarial Training"](https://github.com/zjfheart/Geometry-aware-Instance-reweighted-Adversarial-Training) using Logit Scaling Attack [1,2,3].
 
 ### Overview
-This very simple attack has been firstly shown by Carlini and Wagner to break robustness by distillation in [1] and was, later on, employed in [2]. Though this attack has been posted since 2016, it is not well known in the community.
+This simple attack has been firstly shown by Carlini and Wagner to break robustness by distillation in [1] and was, later on, encompassed in AutoAttack paper in [2]. 
+Though this attack has been posted since 2016, it is not well known in the community.
 In our tech report, we show that method such as GAIRAT, that scales the loss during training, are subject to the gradient masking that can be revealed with this type of attack.
 
 The results of our experiments can be found [here](https://arxiv.org/abs/2103.01914).
@@ -42,7 +43,7 @@ If you find our work useful, please cite:
 
 ```
 
-### Reference
+### References
 [1] [https://arxiv.org/pdf/1607.04311.pdf](https://arxiv.org/pdf/1607.04311.pdf)
 
 [2] https://arxiv.org/pdf/2003.01690.pdf
