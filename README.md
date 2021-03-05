@@ -6,7 +6,7 @@ The results of our experiments can be found [here](https://arxiv.org/abs/2103.01
 
 To test GAIRAT on CIFAR-10 we had to train their model and our pre-trained models can be found [here](https://drive.google.com/drive/folders/1vSPEmYtilhsj3jFJk25VVTQEouGLpWnV?usp=sharing).
 
-### Usage #1
+### Usage
 
 [Download](https://drive.google.com/drive/folders/1vSPEmYtilhsj3jFJk25VVTQEouGLpWnV?usp=sharing) our pre-trained model. 
 
@@ -20,7 +20,3 @@ to install the needed dependencies. We tested using PyTorch 1.7.1 and CUDA 11.0.
     python eval_pgd.py --model_path <model_path> --output_suffix=<result_path> --num_restarts 1 --num_steps 20 --alpha <alpha>
 
 to test the model using different alphas. <model_path> is the pre-trained model path (e.g. checkpoint.pth.tar) and <alpha> is the desired scaling value (e.g. 10.0).
-
-### Usage #2
-
-Import `gairat-lsa.ipynb` in Google Colab and run it.
